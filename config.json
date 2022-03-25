@@ -1,0 +1,22 @@
+{
+  "stuName": "",
+  "course_list": [
+    {
+        "url": "https://mobilelearn.chaoxing.com/widget/pcpick/stu/index?courseId=123456&jclassId=123456",
+        "course_name": "某课程"
+    }
+  ],
+  "address": {
+    "latitude": "-1",
+    "longitude": "-1",
+    "addr": "",
+    "ifTiJiao": "0"
+  },
+  "push_config": {"app_token": "AT_",
+               "push_UID": "UID_",
+               "enable_push": false},
+  "log_config": {
+    "log_dir": "./checkin.log",
+    "enable_log": true
+  }
+}
