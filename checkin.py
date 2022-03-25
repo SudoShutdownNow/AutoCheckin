@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 import sys
-
+import os
 from bs4 import BeautifulSoup
 import requests
 import time
@@ -11,6 +11,7 @@ import http.cookiejar as HC
 from PIL import Image
 import json
 
+os.chdir(sys.path[0])
 config = json.load(open("config.json", "r", encoding="UTF-8"))
 #print(config)
 push_config = config['push_config']
