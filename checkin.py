@@ -372,7 +372,7 @@ def open_course_page(course):
 
     # 检验并回传签到结果
     if len(check_in_res) == 0:
-        push_result(course_name, True, "该课程当前没有签到任务")
+        push_result(course_name, False, "该课程当前没有签到任务")
         write_log(course_name + " 没有签到任务")
         return
     else:
